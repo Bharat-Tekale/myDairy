@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">myDairy</string>
+    <string name="title_activity_main_dashboard">MainDashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Customers</string>
+    <string name="menu_slideshow">Rate</string>
+    <string name="menu_tools">Monthly Report</string>
+    <string name="menu_share">Help</string>
+    <string name="menu_send">Logout</string>
+
+    <string name="help_message">help_msg</string>
+    <string name="login_preference">com.example.mydairy_login_preference</string>
+    <string name="login_status_preference">com.example.mydairy_login_status_preference</string>
+</resources>

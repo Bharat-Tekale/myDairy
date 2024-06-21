@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="20dp"
+    tools:context=".Signup_Form">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/logo"
+                android:padding="1dp">
+            </ImageView>
+
+            <androidx.cardview.widget.CardView
+                app:cardCornerRadius="25dp"
+                app:cardElevation="6dp"
+                android:background="@color/cardcolor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:background="@drawable/round_text"
+                    android:paddingLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:ems="10"
+                    android:id="@+id/txtname"
+                    android:hint="Full Name"
+                    android:inputType="text"
+                    android:textSize="20sp"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txtdairy"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/round_text"
+                    android:hint="Dairy Name"
+                    android:paddingLeft="10dp"
+                    android:drawablePadding="10dp"
+                    android:inputType="text"
+                    android:textSize="20sp"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/txtmobile"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/round_text"
+                android:hint="Mobile"
+                android:paddingLeft="10dp"
+                android:drawablePadding="10dp"
+                android:inputType="number"
+                android:textSize="20sp"
+                />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/txtemail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/round_text"
+                android:hint="Email"
+                android:paddingLeft="10dp"
+                android:drawablePadding="10dp"
+                android:inputType="text"
+                android:textSize="20sp"
+                />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txtpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/round_text"
+                    android:hint="Password"
+                    android:paddingLeft="10dp"
+                    android:drawablePadding="10dp"
+                    android:inputType="textPassword"
+                    android:textSize="20sp"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/txtconfirm_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/round_text"
+                    android:hint="Confirm Password"
+                    android:paddingLeft="10dp"
+                    android:drawablePadding="10dp"
+                    android:inputType="textPassword"
+                    android:textSize="20sp"
+                    />
+
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="75dp"
+                    android:layout_alignParentBottom="true"
+                    android:text="Create"
+                    android:layout_marginBottom="2dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:textSize="25dp">
+                </TextView>
+
+                <Button
+                    android:id="@+id/btnregister"
+                    android:layout_width="90dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/next"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:textSize="22sp">
+                </Button>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

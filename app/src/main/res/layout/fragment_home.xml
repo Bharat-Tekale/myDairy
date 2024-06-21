@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/dashaddmilk"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/addmilk"
+            android:text="Add Milk"
+            android:textSize="30sp"
+            android:background="@drawable/custom_button1"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/dashcollection"
+            android:drawableLeft="@drawable/collection"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Collection"
+            android:textSize="30sp"
+            android:background="@drawable/custom_button2"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/dashbilling"
+            android:drawableLeft="@drawable/billing"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Billing"
+            android:textSize="30sp"
+            android:background="@drawable/custom_button3"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/dashaddclient"
+            android:drawableLeft="@drawable/addclient"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Client"
+            android:textSize="30sp"
+            android:background="@drawable/custom_button4"
+            android:textColor="#FFFFFF"
+            />
+
+        <Button
+            android:id="@+id/dashclientdetails"
+            android:drawableLeft="@drawable/clientdetails"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Client Details"
+            android:textSize="30sp"
+            android:background="@drawable/custom_button5"
+            android:textColor="#FFFFFF"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
